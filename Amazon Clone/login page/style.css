@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-self: center;
+    background-image: url(a.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+}
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 420px;
+    margin: 100px auto;
+    padding: 40px 60px 20px 60px ;
+    border-radius: 20px;
+    border: 4px solid rgb(5, 3, 111);
+    position: relative;
+}
+
+.wrapper h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+.box{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    outline: none;
+    display: flex;
+}
+
+.box i{
+    position: absolute;
+   right: 70px;
+   font-size: 20px;
+   padding-top: 13px;
+
+}
+
+.box input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.box input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.remember{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.remember label input{
+    margin-right: 5px; 
+}
+.remember a{
+  text-decoration: none;
+  color: white;
+}
+
+.remember a:hover{
+    color: rgb(17, 255, 0);
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+.register {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    padding-bottom:20px ;
+}
+
+.register p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.637);
+}
+
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.register p a:hover{
+    color: blue;
+}
+
